@@ -1,0 +1,8 @@
+require_relative '../config/environment'
+require 'pry'
+
+info_hash = fill
+
+Patient.new(info_hash)
+
+binding.pry

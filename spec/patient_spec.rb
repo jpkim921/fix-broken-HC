@@ -7,11 +7,16 @@ describe "Patient" do
       new_patient = Patient.new("Vin")
 
       expect(new_patient.class).to eq(Patient)
+    end
+
+    it "it initializes with a name" do
+      new_patient = Patient.new("Vin")
+
       expect(new_patient.name).to eq("Vin")
     end
+
+    
   end
 
-
-  # new_patient_name = new_patient.instance_variable_get(:name)
 
 end
